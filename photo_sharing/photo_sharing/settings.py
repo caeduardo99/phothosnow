@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'photo_sharing.gallery',
+     'photo_sharing.gallery.apps.GalleryConfig',
 ]
 
 MIDDLEWARE = [
